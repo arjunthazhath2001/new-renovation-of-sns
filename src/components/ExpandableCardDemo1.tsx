@@ -152,13 +152,13 @@ export function ExpandableCardDemo1() {
               <div className="">
                 <motion.h3
                   layoutId={`title-${card.title}-${id}`}
-                  className="font-bold text-[11px] md:text-[12px] xl:text-sm text-neutral-800 dark:text-neutral-200 text-left"
+                  className="font-bold text-[11px] md:text-[12px] lg:text-sm xl:text-base text-neutral-800 dark:text-neutral-200 text-left"
                 >
                   {card.title}
                 </motion.h3>
                 <motion.p
                   layoutId={`description-${card.description}-${id}`}
-                  className="text-neutral-600 text-[9px] md:text-[9px] xl:text-sm dark:text-neutral-400 text-left"
+                  className="text-neutral-600 text-[9px] md:text-[9px] lg:text-[12px] xl:text-sm dark:text-neutral-400 text-left"
                 >
                   {card.description}
                 </motion.p>
@@ -167,7 +167,7 @@ export function ExpandableCardDemo1() {
 
             <motion.button
               layoutId={`button-${card.title}-${id}`}
-              className="px-2 py-2 xl:px-4 xl:py-2 text-[5px] md:text-[10px] xl:text-sm rounded-full font-bold transition-colors duration-100 bg-black text-white dark:bg-gray-100 dark:hover:text-black dark:hover:bg-yellow-500 hover:text-black hover:bg-yellow-500  dark:text-black xl:ml-3"
+              className="px-2 py-2 xl:px-4 xl:py-2 text-[6px] md:text-[10px] xl:text-sm rounded-full font-bold transition-colors duration-100 bg-black text-white dark:bg-gray-100 dark:hover:text-black dark:hover:bg-yellow-500 hover:text-black hover:bg-yellow-500  dark:text-black xl:ml-3"
             >
               {card.ctaText}
             </motion.button>
