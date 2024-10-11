@@ -4,7 +4,7 @@ import React from "react";
 export function SparklesPreview() {
   return (
     <div className="w-full bg-transparent flex flex-col pt-24 items-center justify-center overflow-hidden rounded-md">
-      <h1 className="sm:text-3xl md:text-3xl text-4xl lg:text-6xl font-extrabold text-center text-black dark:text-white relative z-20">
+      <h1 className="md:text-3xl text-[20px] lg:text-6xl font-extrabold text-center text-black dark:text-white relative z-20">
         OUR
       </h1>
       <h1 className="sm:text-8xl md:text-8xl text-[50px] lg:text-9xl font-extrabold text-center text-black dark:text-white relative z-20">
