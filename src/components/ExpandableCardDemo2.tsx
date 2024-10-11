@@ -167,7 +167,7 @@ export function ExpandableCardDemo2() {
 
             <motion.button
               layoutId={`button-${card.title}-${id}`}
-              className="px-2 py-2 sm:px-4 sm:py-2 text-[5px] sm:text-sm rounded-full font-bold transition-colors duration-100 bg-black text-white dark:bg-gray-100 dark:hover:text-black dark:hover:bg-yellow-500 hover:text-black hover:bg-yellow-500  dark:text-black sm:ml-8 sm:mt-4 mt-0 "
+              className="px-2 py-2 sm:px-4 sm:py-2 text-[5px] sm:text-sm rounded-full font-bold transition-colors duration-100 bg-black text-white dark:bg-gray-100 dark:hover:text-black dark:hover:bg-yellow-500 hover:text-black hover:bg-yellow-500  dark:text-black sm:ml-5 sm:mt-4 mt-0 "
             >
               {card.ctaText}
             </motion.button>
@@ -213,7 +213,7 @@ export const CloseIcon = () => {
 
 const cards = [
   {
-    description: "Aff. to the TN Dr MGR Medical University",
+    description: "Aff. to TN Dr MGR Medical University",
     title: "SNS College of Physiotherapy",
     src: "/images/card5.png",
     ctaText: "KNOW MORE",
@@ -229,7 +229,7 @@ const cards = [
   },
 
   {
-    description: "Accredited by NAAC with 'A++' Grade",
+    description: "Accr. by NAAC with 'A++' Grade",
     title: "SNS College of Technology",
     src: "/images/card7.png",
     ctaText: "KNOW MORE",
@@ -247,7 +247,7 @@ const cards = [
 
   {
     description: (
-      <>Aff. to the TN Dr MGR Medical University</>
+      <>Aff. to TN Dr MGR Medical University</>
     ),
     title: (
       <>
@@ -266,7 +266,7 @@ const cards = [
     },
   },
   {
-    description: "An International CBSE fingerprint school",
+    description: "An International CBSE school",
     title: "SNS Academy",
     src: "/images/card1.png",
     ctaText: "KNOW MORE",
@@ -274,27 +274,27 @@ const cards = [
     content: () => {
       return (
         <p>
-SNS Academy, a CBSE school, blends Indian traditions and modern technology in an environment that respects every child’s uniqueness. 
+SNS Academy, a CBSE school, blends Indian traditions and modern technology in an environment that respects every childs uniqueness. 
         </p>
       );
     },
   },
 
   {
-    description: "Accredited by NAAC with 'A' Grade",
-    title: "SNS College of Education",
-    src: "/images/card2.png",
+    description: "Aff. to TN Dr.MGR Medical University",
+    title: "SNS College of Pharmacy",
+    src: "/images/card9.png",
     ctaText: "KNOW MORE",
-    ctaLink: "http://drsnsce.edu.in/",
+    ctaLink: "https://snscphs.org/",
     content: () => {
       return (
         <p>
-Dr. SNS College of Education, shapes noble teachers with knowledge, virtue, and high thinking to inspire learners. 
-        </p>
+SNS College of Pharmacy, produces holistic, industry-ready graduates with strong social awareness, adding value to their family, society, and nation.
+
+</p>
       );
     },
   },
 
- 
   
 ];
