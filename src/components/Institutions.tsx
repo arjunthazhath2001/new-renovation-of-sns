@@ -7,7 +7,7 @@ export default function Institutions() {
     <div className='bg-transparent w-full min-h-screen flex flex-col items-center justify-center space-y-4 sm:space-y-8 relative'>
       {/* Title Section */}
       <div className="w-full text-center">
-        <span className="sm:text-5xl md:text-6xl text-4xl lg:text-7xl font-extrabold text-black dark:text-white">Our <span className='text-yellow-400'>Institutions</span> </span>
+        <span className="sm:text-3xl md:text-4xl text-2xl lg:text-5xl xl:text-7xl font-extrabold text-black dark:text-white">Our <span className='text-yellow-400'>Institutions</span> </span>
       </div>
       
       {/* Right Column for the Expandable Cards */}
